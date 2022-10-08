@@ -27,6 +27,7 @@ int main(void)
 	int month, day;
 	scanf("%d %d",&month, &day);
 	printf("1월1일부터 지금까지의 일수는 %d일입니다",getDays(month,day));
+	printf("wow");
 	return 0;
 }
 

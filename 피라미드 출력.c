@@ -9,11 +9,11 @@ int main(void)
 	{
 		for(j=i; j<N; j++)
 		{
-			printf("  ");
+			printf("   ");
 		} 
 		for(j=0; j<i; j++)
 		{
-			printf("¡Ú");
+			printf("¡Ú¡Ú");
 		}
 		for(j=0; j<i-1; j++)
 		{
