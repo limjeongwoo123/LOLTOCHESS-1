@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+void whynot();
+
 int main(void)
 {
 	int a;
