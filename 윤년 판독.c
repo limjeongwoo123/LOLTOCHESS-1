@@ -1,12 +1,7 @@
 #include <stdio.h>
 
-void whynot();
-
-int main(void)
+void leapyear(int a)
 {
-	int a;
-	scanf("%d",&a);
-	
 	if(a%4==0&&a%100!=0||a%400==0)
 	{
 		printf("1");
@@ -15,5 +10,15 @@ int main(void)
 	{
 		printf("0");
 	}
+	
+}
+
+int main(void)
+{
+	int a;
+	scanf("%d",&a);
+	leapyear(a);
+	
+	
 	return 0;
 }
